@@ -1,8 +1,8 @@
 D, N = input().split()
 
 while D != "0" and N != "0":
-    saida = N.replace(D, '')
-    if saida == '':
-        saida = 0
-    print(int(saida))
+    output = N.replace(D, '')
+    if output == '':
+        output = 0
+    print(int(output))
     D, N = input().split()
